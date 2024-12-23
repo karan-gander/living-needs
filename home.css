@@ -1,0 +1,220 @@
+:root {
+  ---primary-blue-color: #1292ae;
+  ---primary-grayis-color: #7bc1b7;
+  ---popins-font:  font-family: "Poppins", serif;
+    /* font-weight: 400;
+    font-style: normal; */
+}
+
+/*  all icons code is here  */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+html{
+  scroll-behavior: smooth;
+  
+}
+
+body {
+  font-family: "Roboto", serif;
+  /* font-weight: 100; */
+  font-style: normal;
+  overflow-x: hidden;
+
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+header {
+  position: sticky;
+  top: 0;
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ffffff;
+
+  /* box-shadow: 2px 2px 2px 10px  black; */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+header .logo img {
+  width: 100px;
+  height: auto;
+}
+header a {
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 10px 15px;
+  color: #000;
+  font-weight: 500;
+  
+}
+ header nav a:hover{
+  letter-spacing: .5px;
+  box-shadow: 2px 2px 1px var(---primary-blue-color);
+  border: 2px var(---primary-blue-color) solid;
+  transition: all .3s ease-in-out;
+ }
+header .menu-icon {
+  display: none;
+}
+
+header a.talk-btn {
+  background: rgb(18, 146, 174, 0.5);
+  background: linear-gradient(
+    90deg,
+    rgba(18, 146, 174, 1) 12%,
+    rgba(123, 193, 183, 1) 100%
+  );
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: #eaf6f6;
+  /* flex-wrap: wrap; */
+}
+.hero-cards{
+  display: flex;
+  padding: 10px 20px;
+  
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  margin-top: 50px;
+  max-width: 800px;
+  background: var(---primary-blue-color);
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* background: linear-gradient(
+    90deg,
+    rgba(18, 146, 174, 1) 12%,
+    rgba(123, 193, 183, 1) 100%
+  ); */
+}
+  #mid-wrap{
+    border-right: #fff 1px solid;
+    border-left: #fff 1px solid;
+  }
+.hero-cards .hero-wrapper{
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  
+
+}
+.hero-cards .hero-wrapper .icon img{
+  height: auto;
+  max-width: 50px;
+}
+.text{
+  padding-top: 40px;
+}
+
+.hero-text {
+  flex: 1;
+}
+.hero-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+.hero-text p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+.hero-text .btn {
+  padding: 10px 20px;
+  background: rgb(18, 146, 174, 0.5);
+  background: linear-gradient(
+    90deg,
+    rgba(18, 146, 174, 1) 12%,
+    rgba(123, 193, 183, 1) 100%
+  );
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+.hero-image img {
+  max-width: 80%;
+  min-width: 200px;
+
+  height: auto;
+}
+.stats {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.stats img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.stats p {
+  margin: 0;
+}
+
+/* url(icons/appointment.png) */
+/* 186F65 */
+
+/* --------------Services Section Code -------------- */
+
+#services {
+  /* height: 100vh; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 20px 40px;
+  background: rgb(18, 146, 174, 0.5);
+  background: linear-gradient(
+    90deg,
+    rgba(18, 146, 174, 1) 12%,
+    rgba(123, 193, 183, 1) 100%
+  );
+  color: white;
+}
+
+.head {
+  text-align: center;
+}
+.head p{
+  font-size: 1rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.box {
+  height: auto;
+  max-width: 400px;
+  margin: 40px 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  text-align: center;
+  background: white;
+  color: #000;
+}
+
+.icon-box img {
+  height: 50px;
+  width: 50px;
+}
