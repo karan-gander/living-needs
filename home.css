@@ -61,7 +61,7 @@ header.scrolled {
   border-radius: 20px;
 }
 header .logo img {
-  width: 100px;
+  max-width: 80px;
   height: auto;
 }
 header a {
@@ -97,6 +97,52 @@ header a.talk-btn {
   font-weight: bold;
   
 }
+
+/* -----------------------------------------------Mobile Navbar CSS---------------------------------------------- */
+
+.mobile-nav{
+  position: absolute;
+  /* top: 20; */
+  top: -235px;
+  /* margin-top: 2rem; */
+  z-index: 1;
+  width: 100%;
+  padding:  3rem;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #eaf6f6;
+  height: auto;
+  
+  
+}
+span.material-icons{
+color: var(---primary-blue-color);
+}
+span.hidden{
+  display: none;
+  
+
+}
+.mobile-nav a{
+  /* transition: e; */
+  text-decoration: none;
+  color: #1292ae;
+  font-weight: bold;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
 .hero {
   display: flex;
   align-items: center;
