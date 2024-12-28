@@ -101,10 +101,11 @@ header a.talk-btn {
 /* -----------------------------------------------Mobile Navbar CSS---------------------------------------------- */
 
 .mobile-nav{
-  position: absolute;
+  position: fixed;
   /* top: 20; */
   top: -235px;
   /* margin-top: 2rem; */
+  
   z-index: 1;
   width: 100%;
   padding:  3rem;
